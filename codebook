@@ -1,0 +1,37 @@
+<b>codebook-</b></br>
+column (1): id - subject id. each subject appears 6 times, one time per activity</br>
+column (2): activity name- type of activity which thes ubject performed (i.e walking upstairs/downstairs,siiting,laying) </br>
+columns (3)-(88):mean and standard deviation of the measurements at the study. </B>
+
+columns (3)-(88):</br>
+include data from accelator, (Acc) Gyro, and data about angle </br>
+
+ [4] "BodyAcc.mean.Y"                      "BodyAcc.mean.Z"                      "BodyAcc.std.X"                      
+ [7] "BodyAcc.std.Y"                       "BodyAcc.std.Z"                       "GravityAcc.mean.X"                  
+[10] "GravityAcc.mean.Y"                   "GravityAcc.mean.Z"                   "GravityAcc.std.X"                   
+[13] "GravityAcc.std.Y"                    "GravityAcc.std.Z"                    "BodyAccJerk.mean.X"                 
+[16] "BodyAccJerk.mean.Y"                  "BodyAccJerk.mean.Z"                  "BodyAccJerk.std.X"                  
+[19] "BodyAccJerk.std.Y"                   "BodyAccJerk.std.Z"                   "BodyGyro.mean.X"                    
+[22] "BodyGyro.mean.Y"                     "BodyGyro.mean.Z"                     "BodyGyro.std.X"                     
+[25] "BodyGyro.std.Y"                      "BodyGyro.std.Z"                      "BodyGyroJerk.mean.X"                
+[28] "BodyGyroJerk.mean.Y"                 "BodyGyroJerk.mean.Z"                 "BodyGyroJerk.std.X"                 
+[31] "BodyGyroJerk.std.Y"                  "BodyGyroJerk.std.Z"                  "BodyAccMag.mean"                    
+[34] "BodyAccMag.std"                      "GravityAccMag.mean"                  "GravityAccMag.std"                  
+[37] "BodyAccJerkMag.mean"                 "BodyAccJerkMag.std"                  "BodyGyroMag.mean"                   
+[40] "BodyGyroMag.std"                     "BodyGyroJerkMag.mean"                "BodyGyroJerkMag.std"                
+[43] "BodyAcc.mean.X.1"                    "BodyAcc.mean.Y.1"                    "BodyAcc.mean.Z.1"                   
+[46] "BodyAcc.std.X.1"                     "BodyAcc.std.Y.1"                     "BodyAcc.std.Z.1"                    
+[49] "BodyAcc.meanFreq.X"                  "BodyAcc.meanFreq.Y"                  "BodyAcc.meanFreq.Z"                 
+[52] "BodyAccJerk.mean.X.1"                "BodyAccJerk.mean.Y.1"                "BodyAccJerk.mean.Z.1"               
+[55] "BodyAccJerk.std.X.1"                 "BodyAccJerk.std.Y.1"                 "BodyAccJerk.std.Z.1"                
+[58] "BodyAccJerk.meanFreq.X"              "BodyAccJerk.meanFreq.Y"              "BodyAccJerk.meanFreq.Z"             
+[61] "BodyGyro.mean.X.1"                   "BodyGyro.mean.Y.1"                   "BodyGyro.mean.Z.1"                  
+[64] "BodyGyro.std.X.1"                    "BodyGyro.std.Y.1"                    "BodyGyro.std.Z.1"                   
+[67] "BodyGyro.meanFreq.X"                 "BodyGyro.meanFreq.Y"                 "BodyGyro.meanFreq.Z"                
+[70] "BodyAccMag.mean.1"                   "BodyAccMag.std.1"                    "BodyAccMag.meanFreq"                
+[73] "BodyAccJerkMag.mean.1"               "BodyAccJerkMag.std.1"                "BodyAccJerkMag.meanFreq"            
+[76] "BodyGyroMag.mean.1"                  "BodyGyroMag.std.1"                   "BodyGyroMag.meanFreq"               
+[79] "BodyGyroJerkMag.mean.1"              "BodyGyroJerkMag.std.1"               "BodyGyroJerkMag.meanFreq"           
+[82] "angle.tBodyAccMean.gravity"          "angle.tBodyAccJerkMean.gravityMean"  "angle.tBodyGyroMean.gravityMean"    
+[85] "angle.tBodyGyroJerkMean.gravityMean" "angle.X.gravityMean"                 "angle.Y.gravityMean"                
+[88] "angle.Z.gravityMean" 
